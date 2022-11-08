@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-size: 40px    
+}
+
+header {
+    color: rgb(255, 0, 0);
+    background-color: rgb(235, 235, 235);
+    text-decoration: none;
+}
+.navegacao {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegador nav li a{
+    text-transform:uppercase;
+    color: green;
+}
+a:hover{
+    font-size: 25px;
+    color: darkgreen;
+    transition: 0.5s;
+}
+
+#fotocarlos {
+    position: 10%, 90%,10%,10%;
+    height: 200px;
+    border-radius: 100%;
+}
+
+nav li {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.conteudo_geral{
+    display: inline-flex;
+
+}
+.informaçoes_pessoais{
+    background-color: rgb(235, 235, 235);
+    padding-top: 10px;
+    width: 25%;
+}
+
+.conteudo_principal {
+    margin-left: 15px;
+}
+
+footer {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+}
+.rodape{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    margin: 20px;
+    height: 150px;
+    width: 200px;
+    border-radius: 13px;
+}
